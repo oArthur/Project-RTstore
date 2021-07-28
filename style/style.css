@@ -13,6 +13,9 @@
     background: rgba(0, 0, 0, 0.95);
 }
 
+
+/* ---- Header ---- */
+
 .header {
     align-items: center;
     display: grid;
@@ -40,7 +43,7 @@
 }
 
 .input {
-    position: fixed;
+    position: absolute;
     top: 30px;
     left: 10rem;
     grid-column: 1 / 3;
@@ -53,7 +56,7 @@
 }
 
 .menu1 {
-    position: fixed;
+    position: absolute;
     top: 32px;
     right: 10rem;
     grid-column: 8 / 9;
@@ -69,11 +72,56 @@
     border: none;
     background-color: rgba(0, 0, 0, 0.95);
     color: #ffffff;
-    width: 10rem;
+    width: 11rem;
     height: 2rem;
     font-size: 0.85rem;
 }
 
 .input input::placeholder {
+    font-family: Poppins;
+    font-weight: 300;
     color: rgba(255, 255, 255, 0.9);
+}
+
+
+/* ---- NavBar ---- */
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 1.1rem;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 1rem;
+    color: #ffffff;
+}
+
+
+/* ---- Section Principal ---- */
+
+.principal {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.posts {
+    position: relative;
+    display: flex;
+    bottom: 1.7rem;
+    background-color: #ffffff;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.25);
+    width: 80%;
 }
