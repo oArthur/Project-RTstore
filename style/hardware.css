@@ -29,13 +29,14 @@
     display: flex;
     width: 90%;
     height: 50%;
+    margin-top: 60px;
+    margin-bottom: 65px;
     background-color: #c4c4c4
 }
 
 .navbar-lateral {
-    width: 30%;
-    margin-left: 50px;
-    margin-right: auto;
+    width: 20%;
+    margin-left: auto;
     margin-bottom: auto;
 }
 
@@ -64,4 +65,18 @@
     font-family: Roboto;
     font-size: 19px;
     color: black;
+}
+
+.suporte-post {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin-right: auto;
+}
+
+.post {
+    display: flex;
+    width: 222px;
+    height: 344px;
+    background-color: #c4c4c4
 }
