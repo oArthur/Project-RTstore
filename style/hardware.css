@@ -80,3 +80,12 @@
     height: 344px;
     background-color: #c4c4c4
 }
+
+
+/*Largura for menor ou igual a 1600px ira remover o ultimo post*/
+
+@media only screen and (max-width: 1600px) {
+    #ad {
+        display: none;
+    }
+}
